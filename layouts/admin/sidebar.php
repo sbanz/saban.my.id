@@ -3,8 +3,8 @@
   <li class="nav-item">
     <a href="<?= $_SESSION['role'] == 'admin' ? '../../admin/dashboard' : '../../user/dashboard' ?>" class="nav-link d-flex align-items-center justify-content-center">
       <span class="sidebar-icon text-center">
-        <h3>Galeri</h3>
-        <h3>Gitar</h3>
+        <h3 style="font-weight: bold;">PPL</h3>
+        <p class="tex-muted">Pochinki Premier League</p>
       </span>
     </a>
   </li>
@@ -18,34 +18,34 @@
   </li>
   <?php if($_SESSION['role'] == 'admin'): ?>
     <li class="nav-item">
-    <a href="../../admin/order/create.php" class="nav-link d-flex justify-content-between">
+    <a href="../../admin/matches/create.php" class="nav-link d-flex justify-content-between">
       <span>
-        <span class="sidebar-icon"><i class="fa-solid fa-plus"></i></span>
-        <span class="sidebar-text">Tambah Pembelian</span>
+        <span class="sidebar-icon"><i class="fa-solid fa-award"></i></span>
+        <span class="sidebar-text">Hasil Pertandingan</span>
       </span>
     </a>
   </li>
   <li class="nav-item">
-    <a href="../../admin/order" class="nav-link d-flex justify-content-between">
+    <a href="../../admin/matches" class="nav-link d-flex justify-content-between">
       <span>
-        <span class="sidebar-icon"><i class="fa-solid fa-shopping-bag"></i></span>
-        <span class="sidebar-text">Pembelian</span>
+        <span class="sidebar-icon"><i class="fa-solid fa-futbol"></i></span>
+        <span class="sidebar-text">Pertandingan</span>
       </span>
     </a>
   </li>
   <li class="nav-item">
-    <a href="../../admin/pre-order" class="nav-link d-flex justify-content-between">
+    <a href="../../admin/fixtures" class="nav-link d-flex justify-content-between">
       <span>
-        <span class="sidebar-icon"><i class="fa-solid fa-bell"></i></span>
-        <span class="sidebar-text">Pre-Order</span>
+        <span class="sidebar-icon"><i class="fa-solid fa-flag-checkered"></i></span>
+        <span class="sidebar-text">Fixtures</span>
       </span>
     </a>
   </li>
   <li class="nav-item">
-    <a href="../../admin/inventory" class="nav-link d-flex justify-content-between">
+    <a href="../../admin/tables" class="nav-link d-flex justify-content-between">
       <span>
-        <span class="sidebar-icon"><i class="fa-solid fa-box"></i></span>
-        <span class="sidebar-text">Inventaris</span>
+        <span class="sidebar-icon"><i class="fa-solid fa-table"></i></span>
+        <span class="sidebar-text">Tables</span>
       </span>
     </a>
   </li>
@@ -64,8 +64,8 @@
       <ul class="flex-column nav">
         <li class="nav-item">
           <a class="nav-link"
-            href="../../admin/guitar">
-            <span class="sidebar-text">Gitar</span>
+            href="../../admin/club">
+            <span class="sidebar-text">Klub</span>
           </a>
         </li>
         <li class="nav-item ">
@@ -77,19 +77,27 @@
     </div>
   </li>
   <?php else: ?>
-  <li class="nav-item">
-    <a href="../../user/pre-order" class="nav-link d-flex justify-content-between">
+    <li class="nav-item">
+    <a href="../../user/matches" class="nav-link d-flex justify-content-between">
       <span>
-        <span class="sidebar-icon"><i class="fa-solid fa-bell"></i></span>
-        <span class="sidebar-text">Pre-Order</span>
+        <span class="sidebar-icon"><i class="fa-solid fa-futbol"></i></span>
+        <span class="sidebar-text">Pertandingan</span>
       </span>
     </a>
   </li>
   <li class="nav-item">
-    <a href="../../user/order" class="nav-link d-flex justify-content-between">
+    <a href="../../user/fixtures" class="nav-link d-flex justify-content-between">
       <span>
-        <span class="sidebar-icon"><i class="fa-solid fa-shopping-bag"></i></span>
-        <span class="sidebar-text">Pembelian</span>
+        <span class="sidebar-icon"><i class="fa-solid fa-flag-checkered"></i></span>
+        <span class="sidebar-text">Fixtures</span>
+      </span>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a href="../../user/tables" class="nav-link d-flex justify-content-between">
+      <span>
+        <span class="sidebar-icon"><i class="fa-solid fa-table"></i></span>
+        <span class="sidebar-text">Tables</span>
       </span>
     </a>
   </li>

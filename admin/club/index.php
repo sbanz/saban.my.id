@@ -5,7 +5,7 @@
     <div class="py-4">
         <div class="d-flex justify-content-between w-100 flex-wrap">
             <div class="mb-3 mb-lg-0">
-                <h1 class="h4">Inventaris</h1>
+                <h1 class="h4">Gitar</h1>
             </div>
         </div>
     </div>
@@ -16,20 +16,14 @@
                 <tr>
                     <th></th>
                     <th>Nama</th>
-                    <th>Tambah</th>
-                    <th>Kurang</th>
-                    <th>Total</th>
-                    <th>Terakhir Terubah</th>
+                    <th>Liga</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                     <th>1</th>
-                    <td>Gitar 1</td>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>1</td>
-                    <td>2021-10-10</td>
+                    <td>Klub 1</td>
+                    <td>Eropa</td>
                 </tr>
               </tbody>
             </table>

@@ -10,14 +10,14 @@ if(isset($_SESSION['status'])) {
   }
 }
 
-if(isset($_POST['username'])) {
-  if($_POST['username'] == 'admin' && $_POST['password'] == 'sandi') {
-    $_SESSION['username'] = "admin";
+if(isset($_POST['email'])) {
+  if($_POST['email'] == 'admin@ppl.com' && $_POST['password'] == '123456') {
+    $_SESSION['email'] = 'admin@ppl.com';
     $_SESSION['role'] = 'admin';
     $_SESSION['status'] = "login";
     header("Location:../admin/dashboard");
-  } else if($_POST['username'] == 'user' && $_POST['password'] == 'sandi') {
-    $_SESSION['username'] = "user";
+  } else if($_POST['email'] == 'user@ppl.com' && $_POST['password'] == '123456') {
+    $_SESSION['email'] = 'user@ppl.com';
     $_SESSION['role'] = 'user';
     $_SESSION['status'] = "login";
     header("Location:../user/dashboard");
@@ -31,14 +31,15 @@ if(isset($_POST['username'])) {
     <div class="col-12 d-flex align-items-center justify-content-center">
         <div class="bg-white shadow border-0 rounded border-light p-4 p-lg-5 w-100 fmxw-500">
             <div class="text-center text-md-center mb-4 mt-md-0">
-              <h2>PPL - Pochinki Premier League</h2>
+              <h2 class="font-bold" style="font-weight: bold;">PPL</h2>
+              <h4 style="font-weight: light;">Pochinki Premier League</h4>
             </div>
             <form action="" class="mt-4" method="POST">
                 <!-- Form -->
                 <div class="form-group mb-4">
-                    <label for="username">Username</label>
+                    <label for="email">Email</label>
                     <div class="input-group">
-                        <input type="text" name="username" class="form-control" placeholder="Username" id="username" autofocus required>
+                        <input type="text" name="email" class="form-control" placeholder="email" id="email" autofocus required>
                     </div>  
                 </div>
                 <!-- End of Form -->
@@ -62,7 +63,7 @@ if(isset($_POST['username'])) {
                     </div>
                 </div>
                 <div class="d-grid">
-                    <button type="submit" class="btn btn-gray-800">Masuk</button>
+                    <button type="submit" class="btn btn-secondary text-white">Masuk</button>
                 </div>
             </form>
         </div>

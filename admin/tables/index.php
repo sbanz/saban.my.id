@@ -5,7 +5,7 @@
     <div class="py-4">
         <div class="d-flex justify-content-between w-100 flex-wrap">
             <div class="mb-3 mb-lg-0">
-                <h1 class="h4">Pre-Order</h1>
+                <h1 class="h4">Tables</h1>
             </div>
         </div>
     </div>
@@ -15,19 +15,21 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Tanggal PO</th>
-                        <th>Tanggal Datang</th>
-                        <th>Gitar</th>
-                        <th>Total</th>
+                        <th>Klub</th>
+                        <th>W</th>
+                        <th>D</th>
+                        <th>L</th>
+                        <th>PTS</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th>1</th>
-                        <td>2022-01-01 12:10</td>
-                        <td>2022-04-01 12:10</td>
-                        <td>Akustik 1 - Bass</td>
-                        <td>1</td>
+                        <td>Klub 1</td>
+                        <td>22</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>140</td>
                     </tr>
                 </tbody>
             </table>

@@ -7,8 +7,8 @@
                 <h1 class="text-white">Pochinki Premier League</h1>
                 <p>Only Place You Need About Your Football</p>
                 <p>
-                    <a href="#" class="btn btn-primary py-3 px-4 mr-3">Login</a>
-                    <a href="#" class="more light">Register</a>
+                    <a href="../../auth/login.php" class="btn btn-primary py-3 px-4 mr-3">Login</a>
+                    <a href="../../auth/login.php" class="more light">Register</a>
                 </p>
             </div>
         </div>

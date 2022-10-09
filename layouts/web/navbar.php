@@ -6,5 +6,6 @@
         <li><a href="../../web/results" class="nav-link">Results</a></li>
         <li><a href="../../web/tables" class="nav-link">Tables</a></li>
         <li><a href="../../web/contact" class="nav-link">Contact</a></li>
+        <li><a href="../../auth/login.php" class="nav-link">Login/Register</a></li>
     </ul>
 </nav>

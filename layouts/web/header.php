@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="d-flex align-items-center">
                     <div class="site-logo">
-                        <a href="index.html">
+                        <a href="../../web/home">
                             PPL
                         </a>
                     </div>
