@@ -1,39 +1,63 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Yoga Studio Template">
-    <meta name="keywords" content="Yoga, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yummy | Template</title>
+    <title>PPL - Pochinki Premier League</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="../../assets/web/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/web/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/web/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/web/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="../../assets/web/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../assets/web/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="../../assets/web/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/web/css/jquery-ui.css">
+    <link rel="stylesheet" href="../../assets/web/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../assets/web/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../assets/web/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="../../assets/web/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="../../assets/web/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="../../assets/web/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="../../assets/web/css/aos.css">
+
+    <link rel="stylesheet" href="../../assets/web/css/style.css">
+
+
+
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="logo">
-                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
             </div>
-            <div class="nav-menu">
-                <?php require_once('navbar.php') ?>
-            </div>
-            <div id="mobile-menu-wrap"></div>
+            <div class="site-mobile-menu-body"></div>
         </div>
-    </header>
+
+
+        <header class="site-navbar py-4" role="banner">
+
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="site-logo">
+                        <a href="index.html">
+                            PPL
+                        </a>
+                    </div>
+                    <div class="ml-auto">
+                        <?php require_once('navbar.php') ?>
+                        <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span class="icon-menu h3 text-white"></span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
