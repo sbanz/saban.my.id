@@ -1,3 +1,10 @@
+<?php
+ob_start();
+session_start();
+include("../../core/functions.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
